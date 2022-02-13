@@ -26,6 +26,7 @@ allprojects {
         maven{
             url "https://dl.bintray.com/tencentqcloudterminal/maven"
         }
+        maven { url 'C://Users/lutao/.m2/repository' }
         maven { url "https://jitpack.io" }
     }
 }
