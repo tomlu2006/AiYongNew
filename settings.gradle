@@ -1,0 +1,2 @@
+include ':app', ':common', ':im', ':live', ':main', ':video', ':game'
+include ':aarLib'
