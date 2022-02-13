@@ -56,10 +56,10 @@ repositories {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-//    //直播
-//    implementation project(':main')
-//    //短视频
-//    implementation project(':video')
+    //直播
+    implementation project(':main')
+    //短视频
+    implementation project(':video')
 
-    api project(':aarLib')
+//    api project(':aarLib')
 }
