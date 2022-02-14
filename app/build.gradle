@@ -45,6 +45,7 @@ android {
         checkReleaseBuilds false
         abortOnError false
     }
+    ndkVersion '22.1.7171670'
 
 }
 
