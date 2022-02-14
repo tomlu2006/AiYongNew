@@ -12,6 +12,8 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.3'
+        //低版本的gradle使用的plugin也相应会低一点
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
     }
 }
 
